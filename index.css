@@ -1,0 +1,102 @@
+body{
+
+    background-color: #1F2937;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.container{
+    margin: 40px 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-title{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.text-colored-title{
+    color: #4ADF86;
+    font-size: 40px;
+}
+
+.title-hint{
+    color: white;
+    font-weight: lighter;
+}
+
+.btn{
+    color: #ffffff;
+    background-color: #10B981;
+    padding: 10px;
+    margin: 20px 0px 30px;
+    border-radius: 5px;
+    border: none;
+    /* display: inline; */
+}
+
+
+/* ############################# CUSTOM SLIDER ############################# */
+
+.custom-rule{
+    margin: 20px 10px 10px;
+    display: flex;
+    /* border: 2px solid blueviolet; */
+    align-items: center;
+}
+
+
+.password-rule{
+    width: 70px;
+    height: 35px;
+    border-radius: 45px;
+    padding: 2px;
+    background-color: #4ADF86;
+}
+
+.box{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #2F3E53;
+    padding: 1px;
+    margin: 1px;
+    transform: translateX(35px);
+    /* background-color: white; */
+}
+
+.rule-text{
+    margin-left: 30px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+/* ########################################################## */
+
+hr.divider{
+    margin: 0px;
+    width: 700px;
+    border: 1px solid #2F3E53;
+    margin-top: 40px;
+}
+
+.generated-passwords{
+    display: flex;
+}
+
+.pass{
+    margin: 30px 30px;
+    width: 250px;
+    height: 20px;
+    color: #55F991;
+    background-color: #273549;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+

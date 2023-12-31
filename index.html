@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="text-title">
+                Generate a 
+            </div>
+            <div class="text-colored-title">
+                random password
+            </div>
+            <h4 class="title-hint">Never use an insecure password again.</h4>
+            
+            <div>
+                <button class="btn" onclick="generatePassword()">
+                    Generate Passwords
+                </button>
+            </div>
+
+            <div class="custom-rule">
+                <div class="password-rule" id="character-rule" onclick="changeStatus('#box-1', '#character-rule')">
+                    <div class="box" id="box-1"></div>
+                </div>
+                <span class="rule-text">Include Alphabets</span>
+            </div>
+            
+            <div class="custom-rule">
+                <div class="password-rule" id="number-rule" onclick="changeStatus('#box-2', '#number-rule')">
+                    <div class="box" id="box-2"></div>
+                </div>
+                <span class="rule-text">Include Numbers</span>
+            </div>
+            
+            <div class="custom-rule">
+                <div class="password-rule" id="symbol-rule" onclick="changeStatus('#box-3', '#symbol-rule')">
+                    <div class="box" id="box-3"></div>
+                </div>
+                <span class="rule-text">Include Symbols</span>
+            </div>
+
+            <hr class="divider">
+
+            <div class="generated-passwords">
+                    <div id="pass1" class="pass">
+                        <span id="password-text-1"></span>
+                        <img src="images/clipboard_icon.svg" alt="clipboard image" id="clipboard" onclick="copyPassword('#password-text-1')">
+                    </div>
+                    <div id="pass2" class="pass">
+                        <span id="password-text-2"></span>
+                        <img src="images/clipboard_icon.svg" alt="clipboard image" id="clipboard" onclick="copyPassword('#password-text-2')">
+                    </div>
+            </div>
+
+        </div>
+
+    </body>
+    <script src="index.js"></script>
+</html>
